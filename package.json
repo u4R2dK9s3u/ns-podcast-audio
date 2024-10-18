@@ -1,0 +1,25 @@
+{
+    "name": "ns-podcast-audio",
+    "version": "1.0.0",
+    "main": "audio",
+    "typings": "index.d.ts",
+    "nativescript": {
+      "platforms": {
+        "android": "8.8.5",
+        "ios": "8.8.2"
+      }
+    },
+    "scripts": {
+      "tsc": "tsc -skipLibCheck",
+      "build": "npm i && ts-patch install && tsc",
+      "clean": "rimraf *.js *.js.map **/*.js **/*.js.map node_modules package-lock.json"
+    },
+    "devDependencies": {
+      "@nativescript/core": "^8.8.2",
+      "@nativescript/types": "^8.8.0",
+      "@nativescript/webpack": "~5.0.22",
+      "rimraf": "^6.0.1",
+      "ts-patch": "^3.2.1",
+      "typescript": "~5.6.3"
+    }
+  }
