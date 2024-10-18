@@ -1,5 +1,5 @@
 {
-    "name": "ns-podcast-audio",
+    "name": "podcast-audio",
     "version": "1.0.0",
     "main": "audio",
     "typings": "index.d.ts",

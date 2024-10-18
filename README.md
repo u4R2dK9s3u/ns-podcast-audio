@@ -1,4 +1,4 @@
-# ns-podcast-audio
+# podcast-audio
 
 An advanced audio player plugin for NativeScript that provides seamless audio playback capabilities for podcasts and music applications on both Android and iOS platforms.
 
@@ -19,7 +19,7 @@ An advanced audio player plugin for NativeScript that provides seamless audio pl
 Install the plugin using npm:
 
 ```bash
-npm install ns-podcast-audio
+npm install podcast-audio
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ npm install ns-podcast-audio
 Import the plugin into your NativeScript project:
 
 ```javascript
-import { TNSPlayer, AudioPlayerOptions, AudioPlayerEvents } from 'ns-podcast-audio';
+import { TNSPlayer, AudioPlayerOptions, AudioPlayerEvents } from 'podcast-audio';
 ```
 
 ### Basic Example
@@ -169,7 +169,7 @@ The plugin handles audio focus changes on Android to provide a seamless audio ex
 ### Example
 
 ```javascript
-import { AudioFocusManager, AudioFocusDurationHint } from 'ns-podcast-audio';
+import { AudioFocusManager, AudioFocusDurationHint } from 'podcast-audio';
 
 const audioFocusManager = new AudioFocusManager({
   durationHint: AudioFocusDurationHint.AUDIOFOCUS_GAIN,
@@ -212,7 +212,7 @@ const audioOptions: AudioPlayerOptions = {
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/u4R2dK9s3u/ns-podcast-audio).
+Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/u4R2dK9s3u/podcast-audio).
 
 ## License
 
